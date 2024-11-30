@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block main %}
+<div class="container py-5">
+    <!-- Welcome Section -->
+    <div class="row align-items-center">
+        <div class="col-lg-6">
+            <h1 class="display-4">Welcome to My World!</h1>
+            <p class="lead">Hi, I'm Gavriel (also known as Gavi Gardin). I'm passionate about technology, design, and creating exciting projects. This is my space to share my journey—my projects, hobbies, and everything in between!</p>
+            <a href="#projects" class="btn btn-outline-primary btn-lg">Me</a>
+        </div>
+        <div class="col-lg-6">
+            <img src="https://i.ibb.co/7WcwrC4/20240916-153145.jpg" class="img-fluid rounded-circle shadow" alt="Gavi Gardin with sunglasses">
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <h3>About Me</h3>
+            <p>I'm 15 years old and live in Jerusalem, Israel. I have a strong passion for coding, astronomy, science, and everything tech-related. In my free time, I love exploring new hobbies, hanging out with friends, and learning about new technologies.</p>
+        </div>
+        <div class="col-md-6">
+            <h3>Skills & Interests</h3>
+            <ul>
+                <li><strong>Coding</strong> – I work with Python, Flask, HTML, CSS, as well as some C and JavaScript</li>
+                <li><strong>Design</strong> – Crafting clean and intuitive user experiences with a focus on UI/UX</li>
+                <li><strong>Technology Enthusiast</strong> – Keeping up with the latest gadgets, trends, and software</li>
+                <li><strong>Space Exploration</strong> Fascinated by the cosmos and the mysteries of the universe</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="row mt-5">
+        <div class="col-lg-4">
+            <h3>My Projects</h3>
+            <p>Bringing ideas to life is my passion! Check out some of my recent projects on <a href="https://github.com/GoobersG" target="_blank">GitHub</a>. Here’s a sneak peek:</p>
+            <ul>
+                <li><a href="https://github.com/me50/GoobersG/tree/cs50/problems/2022/python/project">Inventory Management System</a> – A Python-based inventory manager using SQLite and Tkinter</li>
+                <li><a href="https://gavigardin.com">Personal Website</a> – The very website you're exploring, built with Flask and Bootstrap</li>
+            </ul>
+        </div>
+        <div class="col-lg-4">
+            <h3>Hobbies</h3>
+            <p>When I'm not coding, you can find me:</p>
+            <ul>
+                <li>Immersing myself in video games and digital worlds</li>
+                <li>Spending quality time with friends and family</li>
+            </ul>
+        </div>
+        <div class="col-lg-4">
+            <h3>Contact Me</h3>
+            <p>If you want to get in touch or ask me anything, feel free to reach out! You can find me on social media, or send me an email directly.</p>
+            <a href="https://gavigardin.com/contact" class="btn btn-outline-primary">Contact Me</a>
+        </div>
+    </div>
+
+    <!-- Fun Fact Section -->
+    <div class="row mt-5">
+        <div class="col-lg-12 text-center">
+            <h3>Some of My Favorite Quotes</h3>
+            <p>"A truly happy person is one who can enjoy the scenery while on a detour." </p>
+            <p>"The way to get started is to quit talking and begin doing."" - Walt Disney</p>
+            <p>"Be yourself; everyone else is already taken."" - Oscar Wilde</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

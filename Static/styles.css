@@ -1,0 +1,144 @@
+/* General body styling */
+body {
+    font-family: 'PT Serif', serif;
+    background-color: #000;
+    color: #d3d3d3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #1a1a1a;
+    padding-top: 0.5rem; /* Reduce top padding */
+    padding-bottom: 0.5rem; /* Reduce bottom padding */
+}
+
+.navbar-brand {
+    color: #e0e0e0;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #d3d3d3;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #6a7075;
+}
+
+/* Container for content */
+.container {
+    min-height: 80vh;
+    padding-top: 20px; /* Reduced top padding to minimize extra space */
+    padding-bottom: 20px; /* Optional: you can adjust padding-bottom here */
+}
+
+/* Header styling */
+h1 {
+    color: lightgray;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 10px;
+    margin-top: 10px; /* Adjusted to reduce top margin */
+    margin-bottom: 20px;
+}
+
+/* Image styling */
+.img-fluid {
+    max-width: 100% !important;
+    height: auto !important;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+/* About me section */
+h3 {
+    color: lightgray;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #1a1a1a;
+    padding: 30px 0;
+    text-align: center;
+    color: #d3d3d3;
+    max-height: 200px; /* Set max height for the footer */
+    overflow: hidden; /* Prevent content from overflowing */
+}
+
+/* Footer link styling */
+footer a {
+    color: #e0e0e0;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #6a7075;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .img-fluid {
+        margin-top: 20px;
+    }
+}
+
+/* Default link styling */
+a {
+    color: #3498db; /* Smooth blue color for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: 500; /* Slightly bold text */
+    transition: color 0.3s ease, transform 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for color, transform, and underline */
+}
+
+/* Link hover effect */
+a:hover {
+    color: #e74c3c; /* Red color on hover */
+    text-decoration: underline; /* Underline when hovering */
+    transform: scale(1.05); /* Slightly enlarge the link on hover */
+}
+
+/* Active link styling (when clicked) */
+a:active {
+    color: #2980b9; /* Slightly darker blue for active state */
+    transform: scale(0.98); /* Slightly shrink the link when clicked */
+}
+
+/* Darker background for form controls */
+.form-control {
+    background-color: #3d3d3d;
+    color: #d3d3d3;
+}
+
+/* Style for placeholder text */
+.form-control::placeholder {
+    color: #d3d3d3;
+    opacity: 0.7;
+}
+
+.form-control:focus {
+    background-color: #3d3d3d;
+    color: #d3d3d3;
+}
