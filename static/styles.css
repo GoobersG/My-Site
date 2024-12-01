@@ -142,3 +142,20 @@ a:active {
     background-color: #3d3d3d;
     color: #d3d3d3;
 }
+
+.modal-title{
+    color: rgb(0, 0, 0);
+}
+
+.modal-body{
+    color: rgb(0, 0, 0);
+}
+
+.navbar-brand:hover{
+    text-decoration: none;
+    transform: none;
+}
+
+#social:hover {
+    transform: scale(1.55);
+}
