@@ -18,11 +18,6 @@ def contact():
         print("Form submitted!")
     return render_template('contact.html')  # Show form on GET request
 
-@app.route('/test')
-def test_template():
-    return render_template('home.html')
-
-
 if __name__ == "__main__":
     # Use host='0.0.0.0' for deployment on cloud platforms like Render
     app.run(host='0.0.0.0', debug=True)
