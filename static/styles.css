@@ -31,8 +31,8 @@ body {
 /* Container for content */
 .container {
     min-height: 80vh;
-    padding-top: 20px; /* Reduced top padding to minimize extra space */
-    padding-bottom: 20px; /* Optional: you can adjust padding-bottom here */
+    padding-top: 20px;
+    padding-bottom: 20px; 
 }
 
 /* Header styling */
@@ -40,7 +40,7 @@ h1 {
     color: lightgray;
     border-bottom: 2px solid lightgray;
     padding-bottom: 10px;
-    margin-top: 10px; /* Adjusted to reduce top margin */
+    margin-top: 10px; 
     margin-bottom: 20px;
 }
 
@@ -72,8 +72,8 @@ footer {
     padding: 30px 0;
     text-align: center;
     color: #d3d3d3;
-    max-height: 200px; /* Set max height for the footer */
-    overflow: hidden; /* Prevent content from overflowing */
+    max-height: 200px;
+    overflow: hidden;
 }
 
 /* Footer link styling */
@@ -107,23 +107,23 @@ footer a:hover {
 
 /* Default link styling */
 a {
-    color: #3498db; /* Smooth blue color for links */
-    text-decoration: none; /* Remove underline */
-    font-weight: 500; /* Slightly bold text */
-    transition: color 0.3s ease, transform 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for color, transform, and underline */
+    color: #3498db; 
+    text-decoration: none; 
+    font-weight: 500; 
+    transition: color 0.3s ease, transform 0.3s ease, text-decoration 0.3s ease; 
 }
 
 /* Link hover effect */
 a:hover {
-    color: #e74c3c; /* Red color on hover */
-    text-decoration: underline; /* Underline when hovering */
-    transform: scale(1.05); /* Slightly enlarge the link on hover */
+    color: #e74c3c; 
+    text-decoration: underline; 
+    transform: scale(1.05); 
 }
 
 /* Active link styling (when clicked) */
 a:active {
-    color: #2980b9; /* Slightly darker blue for active state */
-    transform: scale(0.98); /* Slightly shrink the link when clicked */
+    color: #2980b9; 
+    transform: scale(0.98); 
 }
 
 /* Darker background for form controls */
