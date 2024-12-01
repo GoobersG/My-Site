@@ -12,7 +12,12 @@ def home():
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
+    if request.method == 'POST':
+        # Here you can handle the form data submission if necessary
+        # For example: send an email or save the data to a database
+        print("Form submitted!")
     return render_template('contact.html')  # Show form on GET request
 
 if __name__ == "__main__":
-    app.run()
+    # Use host='0.0.0.0' for deployment on cloud platforms like Render
+    app.run(host='0.0.0.0', debug=True)
