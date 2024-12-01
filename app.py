@@ -15,4 +15,4 @@ def contact():
     return render_template('contact.html')  # Show form on GET request
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
